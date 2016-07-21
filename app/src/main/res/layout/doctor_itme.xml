@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.enjoyor.hospitallink.custom.CircularImage
+    android:id="@+id/doctor_icon_itme"
+    android:layout_width="73dp"
+    android:layout_height="73dp"
+    android:background="@mipmap/potrait_doctor"
+    android:layout_marginTop="19dp"
+    android:layout_marginBottom="19dp"
+android:layout_marginLeft="15dp"
+    />
+<TextView
+    android:id="@+id/doctor_name_itme"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="李潇杰"
+    android:textSize="@dimen/hl_textsize_20"
+    android:layout_marginTop="19dp"
+    android:layout_toRightOf="@id/doctor_icon_itme"
+    android:layout_marginLeft="18dp"
+
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/doctor_name_itme"
+    android:text="主治医生"
+    android:layout_alignBottom="@id/doctor_name_itme"
+    android:layout_marginLeft="12dp"
+    android:textSize="@dimen/hl_textsize_15"
+    />
+    <TextView
+        android:id="@+id/administrative_offce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctor_name_itme"
+        android:text="神经病科"
+        android:layout_alignLeft="@id/doctor_name_itme"
+        android:layout_marginTop="14dp"
+        android:textSize="@dimen/hl_textsize_12"
+
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/doctor_icon_itme"
+    android:text="望江县人民医院"
+    android:textSize="@dimen/hl_textsize_12"
+    android:layout_alignLeft="@id/doctor_name_itme"
+
+    />
+
+</RelativeLayout>
+</LinearLayout>
