@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -14,6 +15,8 @@
 >>>>>>> f1384381f69c44fa8e3d07e5db3d57f1dafca80b
 =======
 >>>>>>> 4be7b4927b95633554c81c72ce139bb8e323a52e
+=======
+>>>>>>> 5ea8b3bd11d6220012b5ca2e9ac6ee6f50009c1b
 # Built application files
 *.apk
 *.ap_
@@ -56,8 +59,11 @@ captures/
 *.jks
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bf7f44f71f07f48e1fd2288caa4417df22e5b5c
 =======
 >>>>>>> f1384381f69c44fa8e3d07e5db3d57f1dafca80b
 =======
 >>>>>>> 4be7b4927b95633554c81c72ce139bb8e323a52e
+=======
+>>>>>>> 5ea8b3bd11d6220012b5ca2e9ac6ee6f50009c1b
