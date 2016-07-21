@@ -16,9 +16,7 @@ public class AppointDetialActivity extends ToolBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointdetial, false);
-
         initHead();
-
     }
 
     private void initHead() {
@@ -27,6 +25,7 @@ public class AppointDetialActivity extends ToolBarActivity {
         getRightTvBtn().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**/
                 Intent intent = new Intent(AppointDetialActivity.this,ConfirmAppointActivity.class);
                 startActivity(intent);
             }
